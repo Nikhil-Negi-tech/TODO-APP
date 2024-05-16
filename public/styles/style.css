@@ -1,0 +1,66 @@
+body,html{
+    height: 100%;
+    font-family: sans-serif;
+}
+
+.todoName{
+    font-size:80px;
+    color: black;
+   text-shadow: 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white, 0 0 4px white;
+   
+}
+
+.bgImg{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://cdn.workona.com/assets/images/workona-tasks.png');
+    background-size: cover;
+    filter: blur(5px);
+}
+
+h1{
+    text-align: center;
+}
+
+.task{
+    width: 60%;
+    margin: 0 auto;
+    padding-left: 140px;
+}
+
+.taskList{
+    list-style: none;
+    width: 60%;
+    margin: auto;
+    background-color: white;
+
+}
+
+li{
+    border: 1px solid black;
+    padding: 5px;
+    box-shadow: 1px 1px 5px black;
+    margin: 10px auto;
+}
+
+#newtask{
+    width: 70%;
+}
+
+#addtask{
+    background-color: cadetblue;
+    border: 2px solid black;
+}
+    
+li:first-child button.upBtn,
+li:last-child button.dwnBtn{
+    visibility: hidden;
+}
+
+.upBtn,
+.dwnBtn,
+.delBtn{
+    float: right;
+}
